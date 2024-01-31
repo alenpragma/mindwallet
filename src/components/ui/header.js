@@ -14,13 +14,17 @@ const Header = () => {
         </div>
 
         <div className='flex gap-5'>
-          <div className=' w-[259px] h-[45px]'>
-            <input
-              className=' text-sm w-full h-full focus:outline-none px-5 text-[#464646] rounded-[10px] border-[1px] border-[#BABABA]'
-              type='text'
-              placeholder='Search for a token...'
-            />
-            <Search className=' ' />
+          <div className='relative'>
+            <div className=' w-[259px] h-[45px]'>
+              <input
+                className=' text-sm w-[259px] h-[45px] focus:outline-none px-5 text-[#464646] rounded-[10px] border-[1px] border-[#BABABA]'
+                type='text'
+                placeholder='Search for a token...'
+              />
+              <div className='absolute right-2 top-0 h-full flex items-center'>
+                <Search className='' />
+              </div>
+            </div>
           </div>
 
           <div className='w-11 h-11  border-[1px] border-[#BABABA] rounded-full flex justify-center place-items-center'>
