@@ -2,18 +2,19 @@ import React from "react";
 import coin from "@/assets/coin.png";
 import Image from "next/image";
 import Buy from "../icons/buy";
-import Dashboard from "../icons/Dashboard";
 import Explore from "../icons/Explore";
 import Import from "../icons/Import";
 import Send from "../icons/send";
 import Stack from "../icons/stack";
 import Bridge from "../icons/bridge";
+import Dashboard from "../icons/dashboard";
+
 const Sidebar = () => {
   return (
     <div className='bg-[#232323] h-full p-[30px] pr-6 min-h-screen text-white'>
       <div className='flex gap-4 mb-[26px]'>
         <Image src={coin} alt='coin' />
-        <h2>MINDCHAIN</h2>
+        <h2 className='font-bold'>MINDCHAIN</h2>
       </div>
 
       {/* menu items */}
