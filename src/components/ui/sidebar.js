@@ -8,6 +8,7 @@ import Send from "../icons/send";
 import Stack from "../icons/stack";
 import Bridge from "../icons/bridge";
 import Dashboard from "../icons/dashboard";
+import Link from "next/link";
 
 const Sidebar = () => {
   return (
@@ -20,13 +21,14 @@ const Sidebar = () => {
       {/* menu items */}
       <div className='flex flex-col gap-[15px]'>
         {/* Deshbord */}
-        <div className='bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
-          <div>
-            <Dashboard />
+        <Link href={"/deshbord"}>
+          <div className='bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+            <div>
+              <Dashboard />
+            </div>
+            <span className='font-semibold '>Dashbord</span>
           </div>
-          <span className='font-semibold '>Dashbord</span>
-        </div>
-
+        </Link>
         {/* Explore */}
         <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
           <div>
