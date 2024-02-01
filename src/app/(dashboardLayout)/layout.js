@@ -6,9 +6,9 @@ const DashboardLayout = ({ children }) => {
   return (
     <div className='flex '>
       <Sidebar />
-      <div className='px-[35px] mb-60'>
+      <div className=''>
         <Header />
-        {children}
+        <div className='px-[35px] mb-60'>{children}</div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import user from "@/assets/user1.png";
 import Image from "next/image";
 const Header = () => {
   return (
-    <div className=' lg:w-[1102px]  h-[94px]'>
+    <div className=' lg:w-[1102px] px-[30px] shadow-md h-[94px]'>
       <div className='h-full flex justify-between place-items-center'>
         <div>
           <h2 className='text-2xl cursor-pointer font-bold leading-8 text-[#4B4B4B]'>
