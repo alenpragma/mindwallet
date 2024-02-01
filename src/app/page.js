@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='flex '>
       <Sidebar />
-      <div className='mx-[35px] mb-60'>
+      <div className='px-[35px] mb-60'>
         <Header />
         <ProtfolioValue />
         <TokensNftTrans />

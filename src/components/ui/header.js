@@ -5,10 +5,10 @@ import user from "@/assets/user1.png";
 import Image from "next/image";
 const Header = () => {
   return (
-    <div className=' lg:w-[1102px]  h-[45px]   mt-[44px]'>
-      <div className='flex justify-between place-items-center'>
+    <div className=' lg:w-[1102px]  h-[94px]'>
+      <div className='h-full flex justify-between place-items-center'>
         <div>
-          <h2 className='text-2xl font-bold leading-8 text-[#4B4B4B]'>
+          <h2 className='text-2xl cursor-pointer font-bold leading-8 text-[#4B4B4B]'>
             Dashbord
           </h2>
         </div>
@@ -21,16 +21,16 @@ const Header = () => {
                 type='text'
                 placeholder='Search for a token...'
               />
-              <div className='absolute right-2 top-0 h-full flex items-center'>
+              <div className='cursor-pointer absolute px-2 right-2 top-0 h-full flex items-center'>
                 <Search className='' />
               </div>
             </div>
           </div>
 
-          <div className='w-11 h-11  border-[1px] border-[#BABABA] rounded-full flex justify-center place-items-center'>
+          <div className='w-11 h-11 cursor-pointer border-[1px] border-[#BABABA] rounded-full flex justify-center place-items-center'>
             <NotifactionIcon />
           </div>
-          <div>
+          <div className='cursor-pointer'>
             <Image src={user} alt='user' />
           </div>
         </div>
