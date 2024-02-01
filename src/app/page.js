@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className='flex '>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className='px-[35px] mb-60'>
         <Header />
         <ProtfolioValue />

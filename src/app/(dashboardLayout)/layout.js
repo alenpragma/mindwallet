@@ -1,11 +1,15 @@
+import Header from "@/components/ui/header";
+import Sidebar from "@/components/ui/sidebar";
 import React from "react";
 
 const DashboardLayout = ({ children }) => {
   return (
-    <div>
-      <h2>Header</h2>
-      {children}
-      <h2>Footer</h2>
+    <div className='flex '>
+      <Sidebar />
+      <div className='px-[35px] mb-60'>
+        <Header />
+        {children}
+      </div>
     </div>
   );
 };
