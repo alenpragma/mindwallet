@@ -8,7 +8,7 @@ const TokensNftTrans = () => {
   const [show, setShow] = useState("1");
 
   return (
-    <div className='bg-[#F4F4F4]    rounded-3xl  mt-5 pt-6 lg:pt-10  px-2 lg:pl-7'>
+    <div className='bg-[#F4F4F4]  rounded-3xl  mt-5 pt-6 lg:pt-10 px-2 lg:pl-7'>
       {/* tab */}
       <div className='bg-white flex p-1 rounded-full w-fit  lg:gap-4'>
         <p

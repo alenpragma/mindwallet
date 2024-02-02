@@ -4,7 +4,7 @@ import coin2 from "@/assets/coin1.png";
 const UserWalletDetails = () => {
   return (
     <div>
-      <div className='flex flex-col w-full gap-2'>
+      <div className=' flex flex-col lg:flex-row gap-2'>
         <select
           className='custom-select  flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
           name=''

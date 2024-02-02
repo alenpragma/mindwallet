@@ -5,7 +5,7 @@ import user from "@/assets/user1.png";
 import Image from "next/image";
 const Header = ({ setShow, show }) => {
   return (
-    <div className='max-w-screen lg:w-[1102px] px-2 lg:px-[30px] shadow-md h-16 lg:h-[94px]'>
+    <div className='min-w-screen w-full lg:w-full px-2 lg:px-[30px] shadow-md h-16 lg:h-[94px]'>
       <div className='h-full flex justify-between place-items-center'>
         <div>
           <h2 className='text-base lg:text-2xl cursor-pointer font-bold leading-8 text-[#4B4B4B]'>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ProtfolioValue = () => {
   return (
-    <div className='max-w-screen mx-auto px-3  w-[300px] lg:w-[357px] mt-4    '>
+    <div className='max-w-screen  px-3  w-[300px] lg:w-[357px] mt-4    '>
       <div className='relative m-0 p-0'>
         <div className='w-[110px] lg:w-[124px] rounded-full h-[110px] lg:h-[124px] bg-[#FF971D]'></div>
 
