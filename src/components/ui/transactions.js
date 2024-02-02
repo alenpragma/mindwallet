@@ -4,8 +4,8 @@ const Transactions = () => {
   return (
     <div className='pb-[90px]'>
       <h2 className='text-[#2D2D2D] font-medium pt-6 pb-4'>Jan 29</h2>
-      <div className='bg-white rounded-[20px] px-8'>
-        <div className='h-[77px] flex justify-between place-items-center'>
+      <div className='bg-white rounded-[20px] px-3 lg:px-8'>
+        <div className='h-[50px] lg:h-[77px] flex justify-between place-items-center'>
           <div className='flex gap-1'>
             <div className='bg-[#FFD0CA] w-[30px] h-[30px] rounded-full flex  place-items-center justify-center'>
               <svg
@@ -33,7 +33,7 @@ const Transactions = () => {
           <div className='text-xs text-[#000] font-medium'>-20 Mind</div>
         </div>
         <hr className='border-b-[1px]' />
-        <div className='h-[77px] flex justify-between place-items-center'>
+        <div className='h-[50px] lg:h-[77px] flex justify-between place-items-center'>
           <div className='flex gap-1'>
             <div className='bg-[#D8FFCA] w-[30px] h-[30px] rounded-full flex  place-items-center justify-center'>
               <svg
@@ -66,9 +66,10 @@ const Transactions = () => {
           <div className='text-xs text-[#000] font-medium'>+20 Mind</div>
         </div>
       </div>
+
       <h2 className='text-[#2D2D2D] font-medium pt-6 pb-4'>Jan 30</h2>
-      <div className='bg-white rounded-[20px] px-8'>
-        <div className='h-[77px] flex justify-between place-items-center'>
+      <div className='bg-white rounded-[20px] px-3 lg:px-8'>
+        <div className='h-[50px] lg:h-[77px] flex justify-between place-items-center'>
           <div className='flex gap-1'>
             <div className='bg-[#FFD0CA] w-[30px] h-[30px] rounded-full flex  place-items-center justify-center'>
               <svg
@@ -96,7 +97,7 @@ const Transactions = () => {
           <div className='text-xs text-[#000] font-medium'>-20 Mind</div>
         </div>
         <hr className='border-b-[1px]' />
-        <div className='h-[77px] flex justify-between place-items-center'>
+        <div className='h-[50px] lg:h-[77px] flex justify-between place-items-center'>
           <div className='flex gap-1'>
             <div className='bg-[#D8FFCA] w-[30px] h-[30px] rounded-full flex  place-items-center justify-center'>
               <svg
