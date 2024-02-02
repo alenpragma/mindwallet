@@ -3,19 +3,19 @@ import Search from "../icons/search";
 import NotifactionIcon from "../icons/notifactionIcon";
 import user from "@/assets/user1.png";
 import Image from "next/image";
-const Header = () => {
+const Header = ({ setShow, show }) => {
   return (
-    <div className=' lg:w-[1102px] px-[30px] shadow-md h-[94px]'>
+    <div className='w-screen lg:w-[1102px] px-4 lg:px-[30px] shadow-md h-16 lg:h-[94px]'>
       <div className='h-full flex justify-between place-items-center'>
         <div>
-          <h2 className='text-2xl cursor-pointer font-bold leading-8 text-[#4B4B4B]'>
+          <h2 className='text-lg lg:text-2xl cursor-pointer font-bold leading-8 text-[#4B4B4B]'>
             Dashbord
           </h2>
         </div>
 
-        <div className='flex gap-5'>
+        <div className='flex place-items-center gap-2 lg:gap-5'>
           <div className='relative'>
-            <div className=' w-[259px] h-[45px]'>
+            <div className='hidden lg:block w-[259px] h-[45px]'>
               <input
                 className=' text-sm w-[259px] h-[45px] focus:outline-none px-5 text-[#464646] rounded-[10px] border-[1px] border-[#BABABA]'
                 type='text'
@@ -32,6 +32,9 @@ const Header = () => {
           </div>
           <div className='cursor-pointer'>
             <Image src={user} alt='user' />
+          </div>
+          <div onClick={() => setShow(!show)} className='lg:hidden'>
+            <span className='border border-black py-2 px-2'>icon</span>
           </div>
         </div>
       </div>
