@@ -1,17 +1,15 @@
-import Header from "@/components/ui/header";
-import ProtfolioValue from "@/components/ui/protfolioValue";
-import Sidebar from "@/components/ui/sidebar";
-import TokensNftTrans from "@/components/ui/tokensNftTrans";
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className='flex '>
-      {/* <Sidebar /> */}
+    <div className='flex  h-screen place-content-center place-items-center'>
       <div className=' '>
-        <Header />
-        <ProtfolioValue />
-        <TokensNftTrans />
+        <p>Hello world</p>
+        <Link href='/dashbord'>
+          <button className='broder-1 bg-gray-600 rounded-sm border-gray-600 px-4 py-1'>
+            Dashbord
+          </button>
+        </Link>
       </div>
     </div>
   );
