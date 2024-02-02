@@ -6,11 +6,11 @@ import React, { useState } from "react";
 const DashboardLayout = ({ children }) => {
   const [show, setShow] = useState(true);
   return (
-    <div className='flex '>
-      <Sidebar show={show} />
+    <div className=''>
+      {/* <Sidebar show={show} /> */}
       <div className=''>
         <Header setShow={setShow} show={show} />
-        {/* <div className='px-[35px] mb-60'>{children}</div> */}
+        <div className=' '>{children}</div>
       </div>
     </div>
   );
