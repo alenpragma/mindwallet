@@ -5,7 +5,7 @@ import Image from "next/image";
 const Receive = () => {
   return (
     <div>
-      <div className='mt-[20px] lg:mt-[35px]'>
+      <div className='mt-[20px] px-3 lg:px-[20px] lg:mt-[35px]'>
         <h2 className='font-semibold text-md lg:text-lg '>Receive To</h2>
         <div>
           <select
@@ -26,8 +26,8 @@ const Receive = () => {
           </select>
         </div>
       </div>
-      <div className='pt-7 flex justify-center mx-auto'>
-        <Image className='w-[358px] h-[358px]' src={qr} alt='' />
+      <div className='pt-7 p-3 flex justify-center mx-auto'>
+        <Image className='w-[358px]  ' src={qr} alt='' />
       </div>
     </div>
   );
