@@ -20,8 +20,8 @@ const Sidebar = ({ show }) => {
         </div>
 
         {/* menu items */}
-        {/* <SidebarItems /> */}
-        <div className='flex flex-col gap-4 border border-red-600'>
+        <SidebarItems />
+        {/* <div className='flex flex-col gap-4 border border-red-600'>
           <Link href={"/dashbord"}>
             <div className='bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
               <div>
@@ -46,7 +46,7 @@ const Sidebar = ({ show }) => {
               <span className='font-semibold '>Dashbord</span>
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
