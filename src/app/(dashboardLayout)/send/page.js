@@ -1,6 +1,7 @@
 "use client";
 
 import Assets from "@/components/ui/send/assets";
+import Receive from "@/components/ui/send/receive";
 import { useState } from "react";
 
 const Send = () => {
@@ -9,34 +10,32 @@ const Send = () => {
     <div className='mt-[51px] px-2 rounded-md flex justify-center mx-auto'>
       <div className=' w-full lg:w-[654px] pt-4 pb-[70px]  bg-[#EDEDED]'>
         <div>
-          <div className='bg-white mt-4   mx-3 flex p-1 rounded-full w-fit gap-4'>
+          <div className='bg-white mt-4  font-semibold mx-3 flex p-1 rounded-full w-fit gap-4'>
             <p
               onClick={() => setShow(1)}
               className={`${
                 show == 1 && "bg-[#FF971D] text-[#fff] "
-              } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer font-semibold`}
+              } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer `}
             >
-              Tokens
+              Send
             </p>
             <p
               onClick={() => setShow(2)}
               className={`${
                 show == 2 && "bg-[#FF971D] text-[#fff]"
-              } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer font-semibold`}
+              } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer `}
             >
-              NFTs
+              Receive
             </p>
           </div>
         </div>
-        <div className='px-[20px] lg:px-[46px] mt-[30px] lg:mt-[76px]'>
+        <div className='px-[20px] font-semibold lg:px-[46px] mt-[30px] lg:mt-[76px]'>
           {/* Send from */}
           <div>
-            <h2 className='font-semibold text-md lg:text-lg text-[#343434]'>
-              Send form
-            </h2>
+            <h2 className=' text-md lg:text-lg text-[#343434]'>Send form</h2>
             <div>
               <select
-                className='custom-select  text-[#909090] text-sm lg:text-lg text-odd:text-green-200 text-even:text-blue-200    font-semibold  flex place-items-center border-[1px] border-[#FF971D] rounded-3xl  px-4 w-full lg:w-[553px] h-10 lg:h-14 focus:outline-none'
+                className='custom-select  text-[#909090] text-sm lg:text-lg text-odd:text-green-200 text-even:text-blue-200      flex place-items-center border-[1px] border-[#FF971D] rounded-3xl  px-4 w-full lg:w-[553px] h-10 lg:h-14 focus:outline-none'
                 name=''
                 id=''
               >
@@ -44,11 +43,11 @@ const Send = () => {
                   className='flex gap-5 text-odd:text-green-200 text-even:text-blue-200'
                   value='PMIND'
                 >
-                  <span className='text-sm lg:text-lg font-semibold'>
+                  <span className='text-sm lg:text-lg '>
                     {" "}
                     User Wallet Address
                   </span>
-                  <span className='text-lg font-semibold'>(8779877y765)</span>
+                  <span className='text-lg '>(8779877y765)</span>
                 </option>
                 <option
                   className=' text-odd:text-green-200 text-even:text-blue-200 text-primary opacity-50'
@@ -62,10 +61,10 @@ const Send = () => {
           </div>
           {/* Send To */}
           <div className='mt-[20px] lg:mt-[35px]'>
-            <h2 className='font-semibold text-md lg:text-lg '>Send to</h2>
+            <h2 className=' text-md lg:text-lg '>Send to</h2>
             <div>
               <select
-                className='custom-select  text-[#909090]  text-sm lg:text-lg font-semibold  flex place-items-center border-[1px] border-[#FF971D] rounded-3xl  px-4 w-full lg:w-[h-10 lg:553px] h-10 lg:h-14 focus:outline-none'
+                className='custom-select  text-[#909090]  text-sm lg:text-lg   flex place-items-center border-[1px] border-[#FF971D] rounded-3xl  px-4 w-full lg:w-[h-10 lg:553px] h-10 lg:h-14 focus:outline-none'
                 name=''
                 id=''
               >
@@ -85,6 +84,7 @@ const Send = () => {
 
           {/* Assets */}
           <Assets />
+          <Receive />
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@ export default Send;
 
 {
   /* <div>
-<h2 className='font-semibold text-center text-md lg:text-2xl'>
+<h2 className=' text-center text-md lg:text-2xl'>
   Select asset to send
 </h2>
 <div>
@@ -104,7 +104,7 @@ export default Send;
       onClick={() => setShow(1)}
       className={`${
         show == 1 && "bg-[#FF971D] text-[#fff] "
-      } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer font-semibold`}
+      } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer `}
     >
       Tokens
     </p>
@@ -112,7 +112,7 @@ export default Send;
       onClick={() => setShow(2)}
       className={`${
         show == 2 && "bg-[#FF971D] text-[#fff]"
-      } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer font-semibold`}
+      } px-3 py-1 rounded-full text-[#FF971D] cursor-pointer `}
     >
       NFTs
     </p>
