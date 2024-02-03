@@ -6,11 +6,11 @@ import React, { useState } from "react";
 const SearchTabContent = () => {
   return (
     <>
-      <div className='lg:w-[802px] bg-[#fff] mt-[35px] h-[40px] lg:h-14 px-3  rounded-2xl flex place-items-center justify-between gap-4 border-[1px] border-[#FF971D]'>
+      <div className='lg:w-[802px] bg-[#fff] mt-[35px] h-[40px] lg:h-14 px-3  rounded-xl lg:rounded-2xl flex place-items-center justify-between gap-4 border-[1px] border-[#FF971D]'>
         <div className='flex place-items-center gap-1'>
           <Search />
           <input
-            className='text-[#434343] placeholder:w-[40%] bg-[#fff] text-lg '
+            className='text-[#434343]   bg-[#fff] text-lg '
             placeholder=' Search for a token by name, symbol, or address'
           />
         </div>
