@@ -10,7 +10,7 @@ const SearchTabContent = () => {
         <div className='flex  w-full  place-items-center gap-x-1'>
           <Search className='text-[10px]' />
           <input
-            className='text-[#434343] min-h-full w-full   p-2 h-full border-none outline-none bg-[#fff] text-lg placeholder:text-sm pb-2'
+            className='text-[#434343] min-h-full w-full   p-2 h-full border-none outline-none bg-[#fff] text-lg placeholder:text-sm   lg:pb-4'
             placeholder='Token contract address'
           />
         </div>

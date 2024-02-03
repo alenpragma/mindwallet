@@ -15,10 +15,10 @@ const CustomTokenTab = () => {
           Token contract address
         </p>
         <div className='max-w-full h-10 lg:w-[802px] bg-[#fff]  mt-3   lg:h-14 px-3  rounded-xl lg:rounded-2xl flex justify-between place-items-center gap-4 border-[1px] border-[#FF971D]'>
-          <div className='flex place-items-center gap-x-1'>
+          <div className='flex w-full place-items-center gap-x-1'>
             <Search className='text-[10px]' />
             <input
-              className='text-[#434343] w-full pb-1 h-full outline-none bg-[#fff] text-lg placeholder:text-sm  '
+              className='text-[#434343] w-full min-h-full  pb-1 h-full outline-none bg-[#fff] text-lg placeholder:text-sm  '
               placeholder='Token contract address'
             />
           </div>
