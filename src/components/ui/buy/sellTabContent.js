@@ -1,13 +1,13 @@
 import DownArrow from "@/components/icons/downArrow";
+import Image from "next/image";
 import React from "react";
 import Title from "../title";
-import Image from "next/image";
 import coin from "@/assets/coin.png";
 
-const BuyTabContent = () => {
+const SellTabContent = () => {
   return (
-    <>
-      <div className='mx-2 lg:mx-7'>
+    <div>
+      <div className=' '>
         {/* User Wallet Address */}
 
         <div className='flex justify-center text-2xl lg:text-3xl py-10 lg:py-20'>
@@ -59,8 +59,8 @@ const BuyTabContent = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default BuyTabContent;
+export default SellTabContent;
