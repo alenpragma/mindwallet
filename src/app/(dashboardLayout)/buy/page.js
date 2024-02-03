@@ -13,7 +13,7 @@ const Buy = () => {
 
   return (
     <div className='px-2 flex items-center flex-col lg:flex-row gap-5 py-10 '>
-      <div className='bg-[#F4F4F4] max-w-[640px] lg:w-[640px] pb-14  mx-auto   rounded-lg lg:rounded-3xl'>
+      <div className='bg-[#F4F4F4] max-w-[100%] w-[640px] lg:w-[640px] pb-14  mx-auto   rounded-lg lg:rounded-3xl'>
         <div className='bg-white mt-4 mx-2.5  font-semibold   flex p-1 rounded-full w-fit gap-4'>
           <p
             onClick={() => setShow(1)}
