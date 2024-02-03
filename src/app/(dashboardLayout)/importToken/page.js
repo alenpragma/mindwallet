@@ -33,12 +33,12 @@ const ImportToken = () => {
           </p>
         </div>
         {show == 1 && (
-          <div className='mx-7'>
+          <div className='mx-2 lg:mx-7'>
             <SearchTabContent />
           </div>
         )}
         {show == 2 && (
-          <div className='mx-7'>
+          <div className='mx-2 lg:mx-7'>
             <CustomTokenTab />
           </div>
         )}
