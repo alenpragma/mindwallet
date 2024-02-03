@@ -14,7 +14,7 @@ const Sidebar = ({ show }) => {
           show ? "hidden  lg:block" : ""
         } bg-[#232323]  z-50 absolute lg:relative h-full   lg:pr-6 min-h-screen text-white`}
       >
-        <div className='flex gap-4 mb-[26px]'>
+        <div className='flex py-5 px-3  pb-0 gap-4 mb-[26px]'>
           <Image src={coin} alt='coin' />
           <h2 className='font-bold'>MINDCHAIN</h2>
         </div>

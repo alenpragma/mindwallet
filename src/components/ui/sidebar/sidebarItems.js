@@ -12,7 +12,7 @@ import Link from "next/link";
 const SidebarItems = () => {
   return (
     <>
-      <div className='flex flex-col gap-4'>
+      <div className='flex flex-col p-1 gap-4'>
         {/* Deshbord */}
         <Link href={"/dashbord"}>
           <div className='bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
