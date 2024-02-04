@@ -6,7 +6,7 @@ const UserWalletDetails = () => {
     <div>
       <div className=' flex flex-col lg:flex-row gap-2'>
         <select
-          className='custom-select  flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
+          className='custom-select cursor-pointer  flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
           name=''
           id=''
         >
@@ -28,7 +28,7 @@ const UserWalletDetails = () => {
             alt=''
           />
           <select
-            className='custom-select ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10  bg-[#EDEDED] focus:outline-none'
+            className='custom-select cursor-pointer ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10  bg-[#EDEDED] focus:outline-none'
             name=''
             id=''
           >
@@ -51,7 +51,7 @@ const UserWalletDetails = () => {
             alt=''
           />
           <select
-            className='custom-select ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10  bg-[#EDEDED] focus:outline-none'
+            className='custom-select cursor-pointer ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10  bg-[#EDEDED] focus:outline-none'
             name=''
             id=''
           >

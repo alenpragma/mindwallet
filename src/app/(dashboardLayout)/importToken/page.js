@@ -10,7 +10,7 @@ const ImportToken = () => {
 
   return (
     <div className='px-2   '>
-      <div className='bg-[#F4F4F4] w-[400px] lg:w-[868px] lg:max-w-[868px] mt-6 pb-5 lg:pb-7  mx-auto rounded-lg  lg:rounded-3xl'>
+      <div className='bg-[#F4F4F4] w-[350px] md:w-[600px] lg:w-[868px] lg:max-w-[868px] mt-6 pb-5 lg:pb-7  mx-auto rounded-lg  lg:rounded-3xl'>
         <div className='font-semibold px-2.5 text-[#343434]'>
           <h2 className='text-[24px] text-center pt-7 lg:pt-[60px]'>
             {" "}
@@ -36,7 +36,7 @@ const ImportToken = () => {
           </p>
         </div>
         {show == 1 && (
-          <div className='mx-2 pb-10 lg:mx-7'>
+          <div className='mx-2 py-10 lg:mx-7'>
             <SearchTabContent />
           </div>
         )}
