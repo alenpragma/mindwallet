@@ -8,21 +8,21 @@ import arrow from "@/assets/arrowDuble.png";
 const Swap = () => {
   return (
     <div className='flex justify-center'>
-      <div className='w-[654px]  rounded-[15px] mt-[56px] px-11 pt-11 h-[707px] bg-[#EDEDED]'>
+      <div className='w-[324px] max-w-full lg:w-[654px]  rounded-[15px] mt-[56px] px-2 lg:px-11 pt-11 h-[707px] bg-[#EDEDED]'>
         <div className='flex items-center gap-[18px] flex-col   mx-auto'>
           {/* User Wallet Address */}
-          <div className=' relative   text-sm w-[390px] h-10 '>
+          <div className=' relative   text-sm w-full lg:w-[390px] h-10 '>
             <Image
               className='absolute w-[27px]    top-1/2 left-5 transform -translate-x-1/2 -translate-y-1/2 h-[27px] flex place-items-center items-center'
               src={coin1}
               alt=''
             />
             <select
-              className='custom-select ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10    focus:outline-none'
+              className='custom-select ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm   w-full h-10    focus:outline-none'
               name=''
               id=''
             >
-              <option className=' text-primary p  opacity-50' value='PMIND'>
+              <option className=' text-primary  opacity-50' value='PMIND'>
                 User Wallet Address
               </option>
               <option className=' text-primary opacity-50' value='USD'>
@@ -35,19 +35,19 @@ const Swap = () => {
           </div>
 
           {/* Mind Chain Network */}
-          <div className=' relative text-sm w-[390px] h-10 '>
+          <div className=' relative text-sm w-full lg:w-[390px] h-10 '>
             <Image
               className='absolute w-[27px]    top-1/2 left-5 transform -translate-x-1/2 -translate-y-1/2 h-[27px] flex place-items-center items-center'
               src={coin1}
               alt=''
             />
             <select
-              className='custom-select ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10    focus:outline-none'
+              className='custom-select ps-9 lg:ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10    focus:outline-none'
               name=''
               id=''
             >
               <option className=' text-primary p  opacity-50' value='PMIND'>
-                User Wallet Address
+                Mind Chain Network
               </option>
               <option className=' text-primary opacity-50' value='USD'>
                 USD
@@ -64,13 +64,13 @@ const Swap = () => {
         {/* *************** */}
         <div className='mt-9'>
           <h2 className='font-semibold pb-5'>Swap Form</h2>
-          <div className=' flex place-items-center text-start border-[1px] bg-white border-[#FF971D] w-[563px] h-[55px]  rounded-2xl '>
-            <div className='relative   bg-[#EDEDED] flex place-items-center gap-1   '>
-              <div className=' absolute px-3'>
+          <div className=' flex place-items-center text-start border-[1px] bg-white border-[#FF971D]  lg:w-[563px] h-[55px]  rounded-2xl '>
+            <div className='relative   bg-[#EDEDED] flex place-items-center gap-1  '>
+              <div className=' absolute px-1 lg:px-3'>
                 <Image className='' src={mind} alt='aa' />
               </div>
               <select
-                className='custom-select  focus:outline-none h-[55px] ps-12 font-semibold  w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
+                className='custom-select  focus:outline-none h-[55px] ps-9 lg:ps-12 font-semibold  w-[120px] lg:w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
                 name=''
                 id=''
               >
@@ -83,20 +83,12 @@ const Swap = () => {
                 <option className=' text-primary opacity-50' value='EUR'>
                   EUR
                 </option>
-                <option className=' text-primary opacity-50' value='GBP'>
-                  GBP
-                </option>
-                <option className=' text-primary opacity-50' value='JPY'>
-                  JPY
-                </option>
-                <option className=' text-primary opacity-50' value='AUD'>
-                  AUD
-                </option>
               </select>
             </div>
-            <div className=' flex justify-start ps-6 text-[#909090] bg-white'>
-              <p className=' font-semibold text-lg  '> 00</p>
-            </div>
+            <input
+              className=' flex justify-start ps-2 text-[#909090] bg-white placeholder:font-semibold text-lg h-full placeholder:text-lg w-full rounded-2xl mr-1 focus:outline-none'
+              placeholder='00'
+            ></input>
           </div>
         </div>
 
@@ -109,18 +101,18 @@ const Swap = () => {
 
         <div>
           <h2 className='font-semibold pb-5'>Swap to</h2>
-          <div className=' flex place-items-center text-start border-[1px] bg-white border-[#FF971D] w-[563px] h-[55px]  rounded-2xl '>
-            <div className='relative   bg-[#EDEDED] flex place-items-center gap-1   '>
-              <div className=' absolute p-3'>
-                <Image className='' src={pmind} alt='aa' />
+          <div className=' flex place-items-center text-start border-[1px] bg-white border-[#FF971D]  lg:w-[563px] h-[55px]  rounded-2xl '>
+            <div className='relative   bg-[#EDEDED] flex place-items-center gap-1  '>
+              <div className=' absolute px-1 lg:px-3'>
+                <Image className='' src={pmind} alt='coin' />
               </div>
               <select
-                className='custom-select h-[55px] focus:outline-0 ps-12 font-semibold  w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
+                className='custom-select  focus:outline-none h-[55px] ps-9 lg:ps-12 font-semibold  w-[120px] lg:w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
                 name=''
                 id=''
               >
-                <option className=' text-primary opacity-50' value='MIND'>
-                  MIND{" "}
+                <option className=' text-primary opacity-50' value='PMIND'>
+                  PMIND
                 </option>
                 <option className=' text-primary opacity-50' value='USD'>
                   USD
@@ -128,33 +120,23 @@ const Swap = () => {
                 <option className=' text-primary opacity-50' value='EUR'>
                   EUR
                 </option>
-                <option className=' text-primary opacity-50' value='GBP'>
-                  GBP
-                </option>
-                <option className=' text-primary opacity-50' value='JPY'>
-                  JPY
-                </option>
-                <option className=' text-primary opacity-50' value='AUD'>
-                  AUD
-                </option>
               </select>
             </div>
-            <div className=' flex justify-start ps-6 text-[#909090] bg-white'>
-              <p className=' font-semibold text-lg  '> 00</p>
-            </div>
+            <input
+              className=' flex justify-start ps-2 text-[#909090] bg-white placeholder:font-semibold text-lg h-full placeholder:text-lg w-full rounded-2xl mr-1 focus:outline-none'
+              placeholder='00'
+            ></input>
           </div>
         </div>
 
         <div className='mt-[18px]'>
-          <span className='font-medium text-lg'>
+          <span className='font-medium lg:text-lg'>
             MIND verified on 17 sources.
           </span>
           <span className='font-light ps-2 text-[#2E2E2E] text-xs'>
             Always confirm the token address on a{" "}
           </span>
-          <p className='font-bold mt-3 text-[#FF971D] text-[]'>
-            block explorer.
-          </p>
+          <p className='font-bold mt-3 text-[#FF971D]  '>block explorer.</p>
         </div>
         <div className='mt-8'>
           <div className='flex gap-3 justify-center'>
