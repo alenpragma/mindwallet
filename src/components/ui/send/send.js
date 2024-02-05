@@ -35,7 +35,7 @@ const SendTab = () => {
           <div>
             <input
               type='text'
-              className='h-[40px] lg:h-[55px] w-full lg:w-[390px] border-[1px] border-[#FF971D] rounded-3xl text-[#909090]  px-3  outline-none'
+              className='h-[40px] lg:h-[55px] w-full lg:w-[553px] border-[1px] border-[#FF971D] rounded-3xl text-[#909090]  px-3  outline-none'
             />{" "}
           </div>
         </div>

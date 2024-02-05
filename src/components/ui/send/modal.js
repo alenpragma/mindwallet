@@ -10,7 +10,7 @@ const Modal = ({ isOpen, onClose }) => {
       <>
         {/* Background Overlay */}
         {isOpen && (
-          <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
+          <div className='fixed inset-0 z-50 px-2 flex items-center justify-center bg-black bg-opacity-50'>
             {/* Modal Container */}
             <div className='bg-[#EDEDED] py-6 min-h-[60%] px-5 rounded-lg shadow-md'>
               {/* Modal Content */}
@@ -21,7 +21,7 @@ const Modal = ({ isOpen, onClose }) => {
                 >
                   X
                 </div>
-                <div className='w-[80%]  font-semibold  lg:w-[654px]  '>
+                <div className='max-w-screen  font-semibold  lg:w-[654px]  '>
                   <div>
                     <p className=' text-md mb-[30px] text-center lg:text-2xl'>
                       Select asset to send
@@ -48,7 +48,7 @@ const Modal = ({ isOpen, onClose }) => {
                             NFTs
                           </p>
                         </div>
-                        <div className='w-[386px] mt-[35px] h-14 px-3 rounded-2xl flex place-items-center justify-between gap-4 border-[1px] border-[#FF971D]'>
+                        <div className='w-full  mt-[35px] h-14 px-3 rounded-2xl flex place-items-center justify-between gap-4 border-[1px] border-[#FF971D]'>
                           <div className='flex gap-1'>
                             <Search />
                             <p className='text-[#434343] text-lg '>Search</p>
