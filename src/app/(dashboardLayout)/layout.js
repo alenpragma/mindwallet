@@ -7,14 +7,17 @@ const DashboardLayout = ({ children }) => {
   const [show, setShow] = useState(true);
 
   return (
-    <div className='flex max-w-[1440px]'>
+    <div className='flex'>
       <div>
         <Sidebar show={show} />
       </div>
+
       <div className='w-full '>
         <Header setShow={setShow} show={show} />
 
-        <div className=' lg:px-[30] mb-10 '>{children}</div>
+        <div className='max-w-[1440px]'>
+          <div className=' lg:px-[30] mb-10 '>{children}</div>
+        </div>
       </div>
     </div>
   );

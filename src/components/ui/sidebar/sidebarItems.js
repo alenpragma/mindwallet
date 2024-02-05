@@ -21,13 +21,17 @@ const SidebarItems = () => {
         <Link href={"/dashbord"}>
           <div
             className={` ${
-              formattedPath == "Dashbord" && "bg-[#383838]"
-            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+              formattedPath == "dashbord"
+                ? "bg-[#383838] font-semibold"
+                : "font-medium "
+            }  cursor-pointer rounded-[5px]  p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             <div>
-              <Dashboard />
+              <Dashboard
+                color={` ${formattedPath == "dashbord" ? "#fff" : "#B4B4B4"} `}
+              />
             </div>
-            <span className='font-semibold '>Dashbord</span>
+            <span className=' '>Dashbord</span>
           </div>
         </Link>
         {/* Explore */}
@@ -35,14 +39,18 @@ const SidebarItems = () => {
         <Link href={"/explore"}>
           <div
             className={` ${
-              formattedPath == "explore" && "bg-[#383838]"
-            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+              formattedPath == "explore"
+                ? "bg-[#383838] font-semibold"
+                : "font-medium "
+            }  cursor-pointer rounded-[5px]  p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <Explore />
+              <Explore
+                color={` ${formattedPath == "explore" ? "#fff" : "#B4B4B4"} `}
+              />
             </div>
-            <span className='font-semibold '>Explore</span>
+            <span className='  '>Explore</span>
           </div>
         </Link>
 
@@ -50,14 +58,16 @@ const SidebarItems = () => {
         <Link href={"/buy"}>
           <div
             className={` ${
-              formattedPath == "buy" && "bg-[#383838]"
+              formattedPath == "buy"
+                ? "bg-[#383838] font-semibold "
+                : "font-medium"
             }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <Buy />
+              <Buy color={` ${formattedPath == "buy" ? "#fff" : "#B4B4B4"} `} />
             </div>
-            <span className='font-semibold '>Buy</span>
+            <span className=' '>Buy</span>
           </div>
         </Link>
 
@@ -65,56 +75,72 @@ const SidebarItems = () => {
         <Link href={"/sell"}>
           <div
             className={` ${
-              formattedPath == "sell" && "bg-[#383838]"
+              formattedPath == "sell"
+                ? "bg-[#383838] font-semibold"
+                : "font-medium "
             }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <SellIcon />
+              <SellIcon
+                color={` ${formattedPath == "sell" ? "#fff" : "#B4B4B4"} `}
+              />
             </div>
-            <span className='font-semibold '>Sell</span>
+            <span className=''>Sell</span>
           </div>
         </Link>
         {/* Swap */}
         <Link href={"/swap"}>
           <div
             className={` ${
-              formattedPath == "swap" && "bg-[#383838]"
+              formattedPath == "swap"
+                ? "bg-[#383838] font-semibold"
+                : "font-medium "
             }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <SwapIcon />
+              <SwapIcon
+                color={` ${formattedPath == "swap" ? "#fff" : "#B4B4B4"} `}
+              />
             </div>
-            <span className='font-semibold '>Swap</span>
+            <span className=''>Swap</span>
           </div>
         </Link>
         {/* Bridge */}
         <Link href={"/bridge"}>
           <div
             className={` ${
-              formattedPath == "bridge" && "bg-[#383838]"
+              formattedPath == "bridge"
+                ? "bg-[#383838] font-semibold"
+                : "font-medium"
             }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <Bridge />
+              <Bridge
+                color={` ${formattedPath == "bridge" ? "#fff" : "#B4B4B4"} `}
+              />
             </div>
-            <span className='font-semibold '>Bridge</span>
+            <span className=' '>Bridge</span>
           </div>
         </Link>
         {/* Stake */}
         <Link href={"/stake"}>
           <div
             className={` ${
-              formattedPath == "stake" && "bg-[#383838]"
+              formattedPath == "stake"
+                ? "bg-[#383838] font-semibold"
+                : "font-medium"
             }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <Stack />
+              <Stack
+                color={` ${formattedPath == "stake" ? "#fff" : "#B4B4B4"} `}
+              />
             </div>
-            <span className='font-semibold '>Stake</span>
+            <span className=' '>Stake</span>
           </div>
         </Link>
 
@@ -122,28 +148,40 @@ const SidebarItems = () => {
         <Link href={"/send-&-receive"}>
           <div
             className={` ${
-              formattedPath == "send & receive" && "bg-[#383838]"
+              formattedPath == "send & receive"
+                ? "bg-[#383838] font-semibold"
+                : "font-medium"
             }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <Send />
+              <Send
+                color={` ${
+                  formattedPath == "send & receive" ? "#fff" : "#B4B4B4"
+                } `}
+              />
             </div>
-            <span className='font-semibold '>Send & Receive</span>
+            <span className=' '>Send & Receive</span>
           </div>
         </Link>
         {/* Import Token */}
         <Link href={"/import-Token"}>
           <div
             className={` ${
-              formattedPath == "import Token" && "bg-[#383838]"
+              formattedPath == "import Token"
+                ? "bg-[#383838] font-semibold "
+                : "font-medium"
             }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
           >
             {" "}
             <div>
-              <Import />
+              <Import
+                color={` ${
+                  formattedPath == "import Token" ? "#fff" : "#B4B4B4"
+                } `}
+              />
             </div>
-            <span className='font-semibold '>Import Token</span>
+            <span className=''>Import Token</span>
           </div>
         </Link>
       </div>

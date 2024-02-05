@@ -6,8 +6,8 @@ const ProtfolioValue = () => {
       <div className='relative m-0 p-0'>
         <div className='w-[110px] lg:w-[124px] rounded-full h-[110px] lg:h-[124px] bg-[#FF971D]'></div>
 
-        <div className='gradient z-10 p-5 pt-6 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[180px] h-[120px] lg:w-[233px] lg:h-[150px]'>
-          <span className='text-[#252525] text-sm '>Portfolio Value</span>
+        <div className='gradientColor z-30 p-5 pt-6 relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[180px] h-[120px] lg:w-[233px] lg:h-[150px]'>
+          <span className='text-[#252525] text-sm'>Portfolio Value</span>
           <h2 className='text-2xl font-bold pt-4 leading-7'>$23.00</h2>
         </div>
 
