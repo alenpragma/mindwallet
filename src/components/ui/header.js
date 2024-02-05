@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Search from "../icons/search";
 import NotifactionIcon from "../icons/notifactionIcon";
 import user from "@/assets/user1.png";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
+
 const Header = ({ setShow, show }) => {
+  const pathname = usePathname();
+  const formattedPath = pathname.slice(1).replace(/-/g, " ");
+
   return (
     <div className='min-w-screen w-full lg:w-full px-2 lg:px-[30px] shadow-md h-16 lg:h-[94px]'>
       <div className='h-full flex justify-between place-items-center'>
         <div>
-          <h2 className='text-base lg:text-2xl cursor-pointer font-bold leading-8 text-[#4B4B4B]'>
-            Dashbord
+          <h2 className='text-base capitalize lg:text-2xl cursor-pointer font-bold leading-8 text-[#4B4B4B]'>
+            {formattedPath}
           </h2>
         </div>
 

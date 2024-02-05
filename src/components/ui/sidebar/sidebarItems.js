@@ -8,14 +8,22 @@ import Send from "@/components/icons/send";
 import Stack from "@/components/icons/stack";
 import SwapIcon from "@/components/icons/swapIcon";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const SidebarItems = () => {
+  const pathname = usePathname();
+  const formattedPath = pathname.slice(1).replace(/-/g, " ");
+  console.log(formattedPath);
   return (
     <>
       <div className='flex flex-col p-1 gap-4'>
         {/* Deshbord */}
         <Link href={"/dashbord"}>
-          <div className='bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+          <div
+            className={` ${
+              formattedPath == "Dashbord" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
             <div>
               <Dashboard />
             </div>
@@ -23,8 +31,14 @@ const SidebarItems = () => {
           </div>
         </Link>
         {/* Explore */}
+
         <Link href={"/explore"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+          <div
+            className={` ${
+              formattedPath == "explore" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <Explore />
             </div>
@@ -34,7 +48,12 @@ const SidebarItems = () => {
 
         {/* Buy */}
         <Link href={"/buy"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+          <div
+            className={` ${
+              formattedPath == "buy" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <Buy />
             </div>
@@ -44,7 +63,12 @@ const SidebarItems = () => {
 
         {/* Sell */}
         <Link href={"/sell"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+          <div
+            className={` ${
+              formattedPath == "sell" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <SellIcon />
             </div>
@@ -53,7 +77,12 @@ const SidebarItems = () => {
         </Link>
         {/* Swap */}
         <Link href={"/swap"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+          <div
+            className={` ${
+              formattedPath == "swap" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <SwapIcon />
             </div>
@@ -62,7 +91,12 @@ const SidebarItems = () => {
         </Link>
         {/* Bridge */}
         <Link href={"/bridge"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+          <div
+            className={` ${
+              formattedPath == "bridge" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <Bridge />
             </div>
@@ -71,7 +105,12 @@ const SidebarItems = () => {
         </Link>
         {/* Stake */}
         <Link href={"/stake"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+          <div
+            className={` ${
+              formattedPath == "stake" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <Stack />
             </div>
@@ -80,8 +119,13 @@ const SidebarItems = () => {
         </Link>
 
         {/* Send & Receive */}
-        <Link href={"/send"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+        <Link href={"/send-&-receive"}>
+          <div
+            className={` ${
+              formattedPath == "send & receive" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <Send />
             </div>
@@ -89,8 +133,13 @@ const SidebarItems = () => {
           </div>
         </Link>
         {/* Import Token */}
-        <Link href={"/importToken"}>
-          <div className='hover:bg-[#383838] cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5'>
+        <Link href={"/import-Token"}>
+          <div
+            className={` ${
+              formattedPath == "import Token" && "bg-[#383838]"
+            }  cursor-pointer rounded-[5px] p-2 w-[188px] h-[40px] flex place-items-center gap-2.5`}
+          >
+            {" "}
             <div>
               <Import />
             </div>
