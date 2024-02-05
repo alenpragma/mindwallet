@@ -48,7 +48,7 @@ const Modal = ({ isOpen, onClose }) => {
                             NFTs
                           </p>
                         </div>
-                        <div className='w-full  mt-[35px] h-14 px-3 rounded-2xl flex place-items-center justify-between gap-4 border-[1px] border-[#FF971D]'>
+                        <div className='w-full bg-[#fff] mt-[35px] h-14 px-3 rounded-2xl flex place-items-center justify-between gap-4 border-[1px] border-[#FF971D]'>
                           <div className='flex place-items-center gap-1'>
                             <Search />
                             <input
@@ -60,9 +60,15 @@ const Modal = ({ isOpen, onClose }) => {
 
                           <div className='flex h-full place-items-center gap-2'>
                             <hr className='border border-[#3D3D3D] h-full ' />
-                            <p className=' text-[#343434]'>All Network</p>
                             <div>
-                              <DownArrow />
+                              <select className='custom-select2 bg-[#fff] cursor-pointer flex text-sm border-0 outline-none   h-full place-items-center gap-2'>
+                                <option className=' text-[#343434] flex'>
+                                  All Network
+                                </option>
+                                <option className=' text-[#343434] flex'>
+                                  All Network 1{" "}
+                                </option>
+                              </select>
                             </div>
                           </div>
                         </div>

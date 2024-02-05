@@ -25,7 +25,7 @@ const CustomTokenTab = () => {
           <div className='flex h-full'>
             <hr className='border border-[#3D3D3D] h-full mr-1' />
             <div>
-              <select className='custom-select2 flex text-sm border-0 outline-none   h-full place-items-center gap-2'>
+              <select className='custom-select2 bg-[#fff] flex text-sm border-0 outline-none   h-full place-items-center gap-2'>
                 <option className=' text-[#343434] flex'>
                   Select Network 1
                 </option>

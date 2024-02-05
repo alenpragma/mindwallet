@@ -4,7 +4,7 @@ import React from "react";
 
 const Dashbord = () => {
   return (
-    <div className=' lg:px-6 '>
+    <div className='px-2 lg:px-6 '>
       <ProtfolioValue />
       <TokensNftTrans />
     </div>

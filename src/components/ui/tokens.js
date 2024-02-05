@@ -3,7 +3,7 @@ import React from "react";
 const Tokens = () => {
   return (
     <div>
-      <div class=' max-w-full border-2 overflow-x-auto mt-5'>
+      <div class=' max-w-full  overflow-x-auto mt-5'>
         <table class='w-[400px] md:w-full lg:w-full  divide divide-[#BDBDBD]'>
           <thead>
             <tr>
