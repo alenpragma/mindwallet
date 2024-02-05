@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import coin1 from "@/assets/coin1.png";
+import user from "@/assets/usericon.png";
 import mind from "@/assets/coin1.png";
 import pmind from "@/assets/pmlogo.png";
 import arrow from "@/assets/arrowDuble.png";
@@ -14,7 +15,7 @@ const Swap = () => {
           <div className=' relative   text-sm w-full lg:w-[390px] h-10 '>
             <Image
               className='absolute w-[27px]    top-1/2 left-5 transform -translate-x-1/2 -translate-y-1/2 h-[27px] flex place-items-center items-center'
-              src={coin1}
+              src={user}
               alt=''
             />
             <select
@@ -67,7 +68,7 @@ const Swap = () => {
           <div className=' flex place-items-center text-start border-[1px] bg-white border-[#FF971D]  lg:w-[563px] h-[55px]  rounded-2xl '>
             <div className='relative   bg-[#EDEDED] flex place-items-center gap-1  '>
               <div className=' absolute px-1 lg:px-3'>
-                <Image className='' src={mind} alt='aa' />
+                <Image className='w-[27px]' src={mind} alt='aa' />
               </div>
               <select
                 className='custom-select  focus:outline-none h-[55px] ps-9 lg:ps-12 font-semibold  w-[120px] lg:w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'

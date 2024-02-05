@@ -18,18 +18,13 @@ const SendTab = () => {
                 className='flex gap-5 text-odd:text-green-200 text-even:text-blue-200'
                 value='PMIND'
               >
-                <span className='text-sm lg:text-lg '>
-                  {" "}
-                  User Wallet Address
-                </span>
-                <span className='text-lg '>(8779877y765)</span>
+                User Wallet Address (8779877y765)
               </option>
               <option
                 className=' text-odd:text-green-200 text-even:text-blue-200 text-primary opacity-50'
                 value='USD'
               >
-                <span className='text-[#800]'>BTD</span>
-                <span className='text-[#fff]'> USD</span>
+                BTD
               </option>
             </select>
           </div>
@@ -44,14 +39,13 @@ const SendTab = () => {
               id=''
             >
               <option className='flex gap-5 text-[#909090]' value='PMIND'>
-                <span>Enter public address (0x) or ENS name</span>{" "}
+                Enter public address (0x) or ENS name
               </option>
               <option
                 className=' text-[#909090] text-primary opacity-50'
                 value='USD'
               >
-                <span className=''> BTD</span>
-                <span className=''> USD</span>
+                bdt
               </option>
             </select>
           </div>
