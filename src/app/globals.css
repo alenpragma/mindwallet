@@ -24,6 +24,7 @@
   background-position: right 20px center; /* Adjust the position as needed */
   padding-right: 10px; /* Adjust the padding to make space for the icon */
   cursor: pointer;
+  background: #fff;
 }
 
 .custom-select2 {
@@ -32,6 +33,7 @@
   background-repeat: no-repeat;
   background-position: right 0px center; /* Adjust the position as needed */
   padding-right: 20px; /* Adjust the padding to make space for the icon */
+  background: #fff;
 }
 
 .advance-option-custom-select {
