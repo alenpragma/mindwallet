@@ -12,7 +12,7 @@ const DashboardLayout = ({ children }) => {
         <Sidebar show={show} />
       </div>
       <div className='w-full '>
-        <Header show={show} />
+        <Header setShow={setShow} show={show} />
 
         <div className=' lg:px-[30] mb-10 '>{children}</div>
       </div>
