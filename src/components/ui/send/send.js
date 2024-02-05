@@ -10,7 +10,7 @@ const SendTab = () => {
           <h2 className=' text-md lg:text-lg text-[#343434]'>Send form</h2>
           <div>
             <select
-              className='custom-select  text-[#909090] text-sm lg:text-lg text-odd:text-green-200 text-even:text-blue-200      flex place-items-center border-[1px] border-[#FF971D] rounded-3xl  px-4 w-full lg:w-[553px] h-10 lg:h-14 focus:outline-none'
+              className='custom-select bg-[#fff] text-[#909090] text-sm lg:text-lg text-odd:text-green-200 text-even:text-blue-200      flex place-items-center border-[1px] border-[#FF971D] rounded-3xl  px-4 w-full lg:w-[553px] h-10 lg:h-14 focus:outline-none'
               name=''
               id=''
             >

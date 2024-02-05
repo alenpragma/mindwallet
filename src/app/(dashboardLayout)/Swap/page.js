@@ -19,7 +19,7 @@ const Swap = () => {
               alt=''
             />
             <select
-              className='custom-select ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10 focus:outline-none'
+              className='custom-select bg-[#fff] ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10 focus:outline-none'
               name=''
               id=''
             >
@@ -43,7 +43,7 @@ const Swap = () => {
               alt=''
             />
             <select
-              className='custom-select ps-9 lg:ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10    focus:outline-none'
+              className='custom-select bg-[#fff] ps-9 lg:ps-10 flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-full h-10    focus:outline-none'
               name=''
               id=''
             >
@@ -71,7 +71,7 @@ const Swap = () => {
                 <Image className='w-[27px]' src={mind} alt='aa' />
               </div>
               <select
-                className='custom-select  focus:outline-none h-[55px] ps-9 lg:ps-12 font-semibold  w-[120px] lg:w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
+                className='custom-select bg-[#fff]  focus:outline-none h-[55px] ps-9 lg:ps-12 font-semibold  w-[120px] lg:w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
                 name=''
                 id=''
               >
@@ -108,7 +108,7 @@ const Swap = () => {
                 <Image className='' src={pmind} alt='coin' />
               </div>
               <select
-                className='custom-select  focus:outline-none h-[55px] ps-9 lg:ps-12 font-semibold  w-[120px] lg:w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
+                className='custom-select bg-[#fff] focus:outline-none h-[55px] ps-9 lg:ps-12 font-semibold  w-[120px] lg:w-[150px] border-[1px] border-[#FF971D] rounded-s-2xl'
                 name=''
                 id=''
               >
@@ -137,7 +137,7 @@ const Swap = () => {
           <span className='font-light ps-2 text-[#2E2E2E] text-xs'>
             Always confirm the token address on a{" "}
           </span>
-          <p className='font-bold mt-3 text-[#FF971D]  '>block explorer.</p>
+          <p className='font-bold mt-3 text-[#FF971D]'>block explorer.</p>
         </div>
         <div className='mt-8'>
           <div className=' flex justify-center'>

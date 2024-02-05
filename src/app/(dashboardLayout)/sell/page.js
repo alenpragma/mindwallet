@@ -36,7 +36,7 @@ const Sell = () => {
         <div className='mx-2 lg:mx-7'>
           <div className='mt-5 flex  flex-wrap gap-3 '>
             <select
-              className='custom-select  flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
+              className='custom-select bg-[#fff] flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
               name=''
               id=''
             >
@@ -51,7 +51,7 @@ const Sell = () => {
               </option>
             </select>
             <select
-              className='custom-select  flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
+              className='custom-select bg-[#fff] flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
               name=''
               id=''
             >
@@ -69,7 +69,7 @@ const Sell = () => {
               </option>
             </select>
             <select
-              className='custom-select  flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
+              className='custom-select bg-[#fff] flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10 focus:outline-none'
               name=''
               id=''
             >
