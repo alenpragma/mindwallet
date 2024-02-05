@@ -33,21 +33,10 @@ const SendTab = () => {
         <div className='mt-[20px] lg:mt-[35px]'>
           <h2 className=' text-md lg:text-lg '>Send to</h2>
           <div>
-            <select
-              className='custom-select  text-[#909090]  text-sm lg:text-lg   flex place-items-center border-[1px] border-[#FF971D] rounded-3xl  px-4 w-full lg:w-[h-10 lg:553px] h-10 lg:h-14 focus:outline-none'
-              name=''
-              id=''
-            >
-              <option className='flex gap-5 text-[#909090]' value='PMIND'>
-                Enter public address (0x) or ENS name
-              </option>
-              <option
-                className=' text-[#909090] text-primary opacity-50'
-                value='USD'
-              >
-                bdt
-              </option>
-            </select>
+            <input
+              type='text'
+              className='h-[40px] lg:h-[55px] w-full lg:w-[390px] border-[1px] border-[#FF971D] rounded-3xl text-[#909090]  px-3  outline-none'
+            />{" "}
           </div>
         </div>
 
