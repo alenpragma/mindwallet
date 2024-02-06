@@ -93,7 +93,7 @@ const Swap = () => {
           </div>
         </div>
 
-        <div className='mt-9 flex justify-end'>
+        <div className='mt-9 cursor-pointer flex  justify-end'>
           <Image src={arrow} alt='' />
         </div>
         {/* ****************/}

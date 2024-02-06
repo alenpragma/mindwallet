@@ -13,7 +13,7 @@ const Buy = () => {
   const [show, setShow] = useState("1");
 
   return (
-    <div className='px-2 mx-w-full border-1 border-red-500 flex w-full  flex-col lg:flex-row gap-5 py-10 '>
+    <div className='px-2 mx-w-full    border-1 border-red-500 flex items-center w-full  flex-col lg:flex-row gap-5 py-10 '>
       <div className='bg-[#F4F4F4] max-w-[100%] w-[430px] xl:w-[640px] pb-14    rounded-lg lg:rounded-3xl'>
         <div className='bg-white mt-4 mx-2.5  font-semibold   flex p-1 rounded-full w-fit gap-4'>
           <p
