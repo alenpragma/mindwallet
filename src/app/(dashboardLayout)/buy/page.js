@@ -13,8 +13,8 @@ const Buy = () => {
   const [show, setShow] = useState("1");
 
   return (
-    <div className='px-2 mx-w-full flex max-w-[1110px] mx-auto flex-col lg:flex-row gap-5 py-10 '>
-      <div className='bg-[#F4F4F4] max-w-[100%] w-[500px] xl:w-[640px] pb-14  mx-auto   rounded-lg lg:rounded-3xl'>
+    <div className='px-2 mx-w-full border-1 border-red-500 flex w-full  flex-col lg:flex-row gap-5 py-10 '>
+      <div className='bg-[#F4F4F4] max-w-[100%] w-[430px] xl:w-[640px] pb-14    rounded-lg lg:rounded-3xl'>
         <div className='bg-white mt-4 mx-2.5  font-semibold   flex p-1 rounded-full w-fit gap-4'>
           <p
             onClick={() => setShow(1)}
@@ -34,9 +34,9 @@ const Buy = () => {
           </p>
         </div>
         <div className='mx-2 lg:mx-7'>
-          <div className='mt-5 flex  flex-wrap gap-3 '>
+          <div className='mt-5 flex  flex-wrap gap-3'>
             <select
-              className='custom-select  flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
+              className='custom-select flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
               name=''
               id=''
             >
@@ -99,19 +99,19 @@ const Buy = () => {
       {/* ******************* */}
       {/* How do you want to buy your crypto? */}
       {/* *******************  */}
-      <div className=' w-[400px] mx-auto lg:w-[420px]  xl:w-[474px] pt-[35px]  rounded-lg lg:rounded-3xl bg-[#F4F4F4]   pb-20 lg:pt-7 px-3 lg:px-12'>
+      <div className=' w-[300px] lg:w-[320px]  xl:w-[474px] pt-[35px]  rounded-lg lg:rounded-3xl bg-[#F4F4F4]   pb-20 lg:pt-7 px-3 lg:px-5 xl:px-12'>
         <div className='text-center'>
           <h2 className='font-bold text-lg mb-5'>
             How do you want to buy your crypto?
           </h2>
-          <p className='text-sm px-2 lg:px-12 text-[#000000] font-normal leading-5'>
+          <p className='text-sm px-2 lg:px-2 xl:px-12 text-[#000000] font-normal leading-5'>
             Compare rates from these providers. Quotes are sorted by overall
             price.
           </p>
         </div>
 
         <div className='mt-7  flex items-center mx-auto flex-col gap-y-5 lg:mt-16'>
-          <div className='flex justify-between place-items-center px-2 lg:px-6 w-full lg:w-[371px] h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
+          <div className='flex justify-between place-items-center px-2 w-full lg:px-6   h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
             <div>
               <Image src={sardin} alt='' />
             </div>
@@ -123,7 +123,7 @@ const Buy = () => {
               <DownArrow />
             </div>
           </div>
-          <div className='flex justify-between place-items-center  px-2 lg:px-6 w-full lg:w-[371px] h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
+          <div className='flex justify-between place-items-center  px-2 lg:px-6 w-full  h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
             <div>
               <Image src={crypto} alt='' />
             </div>
@@ -135,7 +135,7 @@ const Buy = () => {
               <DownArrow />
             </div>
           </div>
-          <div className='flex justify-between place-items-center  px-2 lg:px-6 w-full lg:w-[371px] h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
+          <div className='flex justify-between place-items-center  px-2 lg:px-6 w-full  h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
             <div>
               <Image src={sardin} alt='' />
             </div>
@@ -147,7 +147,7 @@ const Buy = () => {
               <DownArrow />
             </div>
           </div>
-          <div className='flex justify-between place-items-center  px-2 lg:px-6 w-full lg:w-[371px] h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
+          <div className='flex justify-between place-items-center  px-2 lg:px-6 w-full  h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
             <div>
               <Image src={sardin} alt='' />
             </div>
