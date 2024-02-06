@@ -13,7 +13,7 @@ const Sell = () => {
   const [show, setShow] = useState("2");
 
   return (
-    <div className='px-2 mx-w-full flex max-w-[1110px] mx-auto flex-col lg:flex-row gap-5 py-10 '>
+    <div className='px-2   flex lg:w-[780px] xl:w-full max-w-[1110px] mx-auto flex-col lg:flex-row gap-5 py-10 '>
       <div className='bg-[#F4F4F4] max-w-[100%] w-[500px] xl:w-[640px] pb-14  mx-auto   rounded-lg lg:rounded-3xl'>
         <div className='bg-white mt-4 mx-2.5  font-semibold   flex p-1 rounded-full w-fit gap-4'>
           <p
@@ -36,7 +36,7 @@ const Sell = () => {
         <div className='mx-2 lg:mx-7'>
           <div className='mt-5 flex  flex-wrap gap-3 '>
             <select
-              className='custom-select bg-[#fff] flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10  bg-[#EDEDED] focus:outline-none'
+              className='custom-select bg-[#fff] flex place-items-center border-[1px] rounded-3xl  px-4 text-sm w-[199px] h-10   focus:outline-none'
               name=''
               id=''
             >

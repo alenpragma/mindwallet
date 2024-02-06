@@ -99,7 +99,7 @@ const Buy = () => {
       {/* ******************* */}
       {/* How do you want to buy your crypto? */}
       {/* *******************  */}
-      <div className='w-full lg:w-[420px] xl:w-[474px] pt-[35px]  rounded-lg lg:rounded-3xl bg-[#F4F4F4]   pb-20 lg:pt-7 px-3 lg:px-12'>
+      <div className=' w-[400px] mx-auto lg:w-[420px]  xl:w-[474px] pt-[35px]  rounded-lg lg:rounded-3xl bg-[#F4F4F4]   pb-20 lg:pt-7 px-3 lg:px-12'>
         <div className='text-center'>
           <h2 className='font-bold text-lg mb-5'>
             How do you want to buy your crypto?
@@ -110,7 +110,7 @@ const Buy = () => {
           </p>
         </div>
 
-        <div className='mt-7 flex items-center mx-auto flex-col gap-y-5 lg:mt-16'>
+        <div className='mt-7  flex items-center mx-auto flex-col gap-y-5 lg:mt-16'>
           <div className='flex justify-between place-items-center px-2 lg:px-6 w-full lg:w-[371px] h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
             <div>
               <Image src={sardin} alt='' />
