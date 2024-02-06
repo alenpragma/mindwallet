@@ -21,7 +21,7 @@ const DashboardLayout = ({ children }) => {
         <Sidebar setShow={setShow} show={show} />
       </div>
 
-      <div className='w-full '>
+      <div className='w-full ps-1 lg:ml-[220px] xl:ml-[230px]'>
         <Header setShow={setShow} show={show} />
 
         <div className='max-w-[1440px]'>
