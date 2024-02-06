@@ -8,7 +8,7 @@ import Dashboard from "../icons/dashboard";
 
 const Sidebar = ({ show, setShow }) => {
   return (
-    <div className='relative'>
+    <div className='relative bg-black bg-opacity-50 inset-0 '>
       <div
         className={`${
           show ? "hidden  lg:block" : ""
