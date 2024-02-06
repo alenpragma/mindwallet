@@ -17,7 +17,7 @@ const BuyTabContent = () => {
         </div>
 
         <div className='  flex flex-col gap-5 lg:gap-8'>
-          <div className='flex justify-between  px-2 lg:px-10 rounded-[45px] border-[1px] bg-[#fff] border-[#BDBDBD]'>
+          <div className='flex justify-between  px-2 lg:px-4 xl:px-10 rounded-[45px] border-[1px] bg-[#fff] border-[#BDBDBD]'>
             <div className='flex py-1 lg:py-4 place-items-center gap-2 lg:gap-7'>
               <div>
                 <Image src={coin} alt='' />
@@ -39,7 +39,7 @@ const BuyTabContent = () => {
             </div>
           </div>
 
-          <div className='flex justify-between  px-2 lg:px-10 rounded-[45px] border-[1px] bg-[#fff] border-[#BDBDBD]'>
+          <div className='flex justify-between  px-2 lg:px-4 xl:px-10 rounded-[45px] border-[1px] bg-[#fff] border-[#BDBDBD]'>
             <div className='flex py-2 lg:py-4 place-items-center gap-1 lg:gap-7'>
               <div>
                 <Image src={coin} alt='' />

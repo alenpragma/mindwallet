@@ -8,7 +8,7 @@ import Dashboard from "../icons/dashboard";
 
 const Sidebar = ({ show, setShow }) => {
   return (
-    <div className='  fixed  z-50'>
+    <div className='fixed  z-50'>
       <div
         className={`${
           show ? "hidden  lg:block" : ""
@@ -20,7 +20,7 @@ const Sidebar = ({ show, setShow }) => {
         </div>
 
         {/* menu items */}
-        <div className='mt-14'>
+        <div className='mt-14 mb-10'>
           <SidebarItems setShow={setShow} show={show} />
         </div>
       </div>

@@ -24,7 +24,7 @@ const DashboardLayout = ({ children }) => {
       <div className='w-full ps-1 lg:ml-[220px] xl:ml-[230px]'>
         <Header setShow={setShow} show={show} />
 
-        <div className='max-w-[1440px]'>
+        <div className='max-w-full'>
           <div className=' lg:px-[30] mb-10 ' onClick={() => closeSide()}>
             {children}
           </div>
