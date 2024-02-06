@@ -9,7 +9,7 @@ const DashboardLayout = ({ children }) => {
   return (
     <div className='flex'>
       <div>
-        <Sidebar show={show} />
+        <Sidebar setShow={setShow} show={show} />
       </div>
 
       <div className='w-full '>

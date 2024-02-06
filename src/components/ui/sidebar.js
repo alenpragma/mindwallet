@@ -6,7 +6,7 @@ import SidebarItems from "./sidebar/sidebarItems";
 import Link from "next/link";
 import Dashboard from "../icons/dashboard";
 
-const Sidebar = ({ show }) => {
+const Sidebar = ({ show, setShow }) => {
   return (
     <div className='relative'>
       <div
@@ -20,7 +20,7 @@ const Sidebar = ({ show }) => {
         </div>
 
         {/* menu items */}
-        <SidebarItems />
+        <SidebarItems setShow={setShow} show={show} />
       </div>
     </div>
   );

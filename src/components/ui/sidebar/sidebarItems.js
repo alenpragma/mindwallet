@@ -10,7 +10,7 @@ import SwapIcon from "@/components/icons/swapIcon";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const SidebarItems = () => {
+const SidebarItems = ({ setShow, show }) => {
   const pathname = usePathname();
   const formattedPath = pathname.slice(1).replace(/-/g, " ");
   console.log(formattedPath);
@@ -18,7 +18,7 @@ const SidebarItems = () => {
     <>
       <div className='flex flex-col p-1 gap-4'>
         {/* Deshbord */}
-        <Link href={"/dashbord"}>
+        <Link href={"/dashbord"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "dashbord"
@@ -36,7 +36,7 @@ const SidebarItems = () => {
         </Link>
         {/* Explore */}
 
-        <Link href={"/explore"}>
+        <Link href={"/explore"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "explore"
@@ -55,7 +55,7 @@ const SidebarItems = () => {
         </Link>
 
         {/* Buy */}
-        <Link href={"/buy"}>
+        <Link href={"/buy"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "buy"
@@ -72,7 +72,7 @@ const SidebarItems = () => {
         </Link>
 
         {/* Sell */}
-        <Link href={"/sell"}>
+        <Link href={"/sell"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "sell"
@@ -90,7 +90,7 @@ const SidebarItems = () => {
           </div>
         </Link>
         {/* Swap */}
-        <Link href={"/swap"}>
+        <Link href={"/swap"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "swap"
@@ -108,7 +108,7 @@ const SidebarItems = () => {
           </div>
         </Link>
         {/* Bridge */}
-        <Link href={"/bridge"}>
+        <Link href={"/bridge"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "bridge"
@@ -126,7 +126,7 @@ const SidebarItems = () => {
           </div>
         </Link>
         {/* Stake */}
-        <Link href={"/stake"}>
+        <Link href={"/stake"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "stake"
@@ -145,7 +145,7 @@ const SidebarItems = () => {
         </Link>
 
         {/* Send & Receive */}
-        <Link href={"/send-&-receive"}>
+        <Link href={"/send-&-receive"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "send & receive"
@@ -165,7 +165,7 @@ const SidebarItems = () => {
           </div>
         </Link>
         {/* Import Token */}
-        <Link href={"/import-Token"}>
+        <Link href={"/import-Token"} onClick={() => setShow(!show)}>
           <div
             className={` ${
               formattedPath == "import Token"
