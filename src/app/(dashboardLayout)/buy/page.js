@@ -110,7 +110,7 @@ const Buy = () => {
           </p>
         </div>
 
-        <div className='mt-7  flex items-center mx-auto flex-col gap-y-5 lg:mt-16'>
+        <div className='mt-7 flex items-center mx-auto flex-col gap-y-5 lg:mt-16'>
           <div className='flex justify-between place-items-center px-2 w-full lg:px-6   h-[70px] rounded-3xl border-[1px] border-[#BDBDBD]'>
             <div>
               <Image src={sardin} alt='' />
